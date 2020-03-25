@@ -11,7 +11,6 @@ html {
 
 body {
     margin:auto;
-    
 }
 
 header {
@@ -42,6 +41,22 @@ main {
 
 #intro {
     text-align: center;
+}
+
+article {
+    border-color: aqua;
+    margin:15px 10px 15px 10px;
+    border-radius: 5px;
+     border: thin solid;
+    
+
+}
+article h3 a:hover,a:active {/*link hover color)*/
+        background-color: aqua;
+        padding:0 15px 0 10px;
+        border-radius: 5px;
+         border:thin solid;
+         opacity: 0.3;
 }
 
 footer {
