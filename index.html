@@ -1,66 +1,64 @@
-<!DOCTYPE html>
-<html lang="en-US">
+*,
+*:before,
+*:after {
+  box-sizing: inherit; 
+}
+
+html {
+   box-sizing: border-box;
+   margin: auto;
+}
+
+body {
+    margin:auto;
+}
+
+header {
+    background-color: aqua;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+#top h1 {
+   text-align: center;
+}
+
+#top ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none; /* no bullet points*/
+}
+
+main {
+    background-color: beige;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+article {
+    border-color: aqua;
+    margin:15px 10px 15px 10px;
+    border-radius: 5px;
+     border: thin solid;
     
-    <head>
-        <title>IFSC 3300</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Nneka's Homework for IFSC 3300: Web Client Application" />
-        <meta name="author" content= "Nneka Greer"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <link href="assets/css/web-client.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Quintessential|Qwigley|Raleway" rel="stylesheet">
-    </head>
-    
-    <body>
 
-        <header id="top">
-            <h1>IFSC 3300: Web Client Application</h1>
-            <ul>
-                <li>Student: Nneka Greer</li>
-                <li>Class Time: Tues & Thursday 10:50 am- 12 pm</li>
-                <li>Submit to: <em>nvedere@ualr.edu</em></li>
-                <li>Class book: <em>Murach's Javascript and Jquery, 3rd Edition</em></li>
-            </ul>
-        </header>
+}
+article h3 a:hover,a:active {/*link hover color)*/
+        background-color: aqua;
+        padding:0 15px 0 10px;
+        border-radius: 5px;
+         border:thin solid;
+         opacity: 0.3;
+}
 
-        <main>
-            <section id="intro">
-                <h2>The following are homework assignments for this class. 
-                    The most recent will be at the top of the list.</h2>
-            </section>
-           
-            <section id="homework">
-
-                    <article>
-                        <h2>Assignment 4</h2>
-                        <h3><a href="" target="_blank">TBA</a></h3>
-                        <p>2/?/20</p>
-                    </article>
-
-                    <article>
-                        <h2>Assignment 3</h2>
-                        <h3><a href="assets/code/welcome.html" target="_blank">Welcome - Ch 6:slide 56</a></h3>
-                        <p>2/18/20</p>
-                    </article>
-
-                    <article>
-                        <h2>Assignment 2</h2>
-                        <h3><a href="assets/code/scores.html" target="_blank">Test Scores Application - p. 81</a></h3>
-                        <p>2/13/20</p>
-                    </article>
-
-                    <article>
-                        <h2>Assignment 1</h2>
-                        <h3><a href="assets/code/mpg.html" target="_blank">Miles Per Gallon - p. 83</a></h3>
-                        <p>2/11/20</p>
-                    </article>
-            </section>
-            </main>
-
-            <footer>                                                         
-                    <h6> &copy;Spring 2020 &middot; <a href="index.html">Nneka L. Greer</a> &middot; All rights reserved &middot; 
-                        <a href="#top">Top</a></h6>
-            </footer>
-    </body>
-    
-</html>
+footer {
+    text-align: center;
+}
