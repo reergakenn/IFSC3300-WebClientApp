@@ -1,0 +1,32 @@
+/* Ch 6 slides: slide 22*/
+
+body {
+    background-color: coral;
+    text-align: center;
+}
+h1 {
+    background-color: #fff;
+}
+a { color:black;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color:blue;
+}
+h2 {
+    cursor: pointer;
+    background-image: url('img/plus.png') no-repeat left center;
+}
+h2.minus {
+    background-image: url('img/minus.png') no-repeat left center;
+}
+div {
+    display: none;
+}
+div.open {
+    display: block;
+}
+#popular ul li{
+    list-style-type: none; /* no bullets*/
+}
+

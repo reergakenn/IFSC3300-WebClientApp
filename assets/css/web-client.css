@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit; 
+}
+
+html {
+   box-sizing: border-box;
+   margin: auto;
+}
+
+body {
+    margin:auto;
+    
+}
+
+header {
+    background-color: aqua;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+#top h1 {
+   text-align: center;
+}
+
+#top ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none; /* no bullet points*/
+}
+
+main {
+    background-color: beige;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
