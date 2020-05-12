@@ -18,17 +18,17 @@ window.onload = function() {
 
     // attach mouseover and mouseout events for each image
     image1.onmouseover = function() {
-        image1.src = "../assets/img/ling-6.jpeg";
+        image1.src = "../assets/img/ling-ttt2-art.jpg";
     };
     image1.onmouseout = function() {
-        image1.src = "../assets/img/xiaoyu-t7fr.jpg";
+        image1.src = "../assets/img/lingdr.jpg";
     };
     
     image2.onmouseover = function() {
-        image2.src = "../assets/lingdr.jpg";
+        image2.src = "../assets/img/xiaoyu-t7fr.jpg";
     };
     image2.onmouseout = function() {
-        image2.src = "../assets/img/ling-ttt2-art.jpg";
+        image2.src = "../assets/img/ling-6.jpeg";
     };
 };
 
