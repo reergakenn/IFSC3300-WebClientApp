@@ -1,0 +1,32 @@
+/* Email List (v.2): clear button - Ch 8: ex 8-1 p.259 -an enhancement ex 6-3 on p. 199 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 650px;
+    padding: 1.5em 2em;
+    border: 3px solid #63dd74;
+}
+main {
+    background-color: #c626e2;
+    padding: 0 2em 1em;
+}
+
+h1 {
+	color: #63dd74;
+	margin-top: 0;
+}
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input {
+    width: 12em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+	color: red;
+}
